@@ -16,5 +16,6 @@ setup(
     url="https://github.com/ToyotaResearchInstitute",
     install_requires=requirements,
     packages=find_packages(),
+    include_package_data=True,
     python_requires=">=3.10",
 )
